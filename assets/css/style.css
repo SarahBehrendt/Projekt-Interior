@@ -1,0 +1,262 @@
+/* +++Basic++ */
+
+@font-face {
+    font-family: Lora;
+    src: url(../fonts/Lora-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Worksans;
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --color1:#2e2e2e;
+    --color2:#fff;
+    --color3:#000;
+    --color4:#1d2c2f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size:5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* +++Header Bild&Firmenname */
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    font-family: Lora;
+}
+
+h1{
+    font-size:8rem;
+    font-weight: 400;
+}
+
+header section article p{
+font-size: 2rem;
+}
+
+header section .firma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15rem;
+}
+
+header section article img{
+    height: 100vh;
+    width: 55vw;
+}
+
+/* +++Header Navbar+++ */
+
+ body  nav{
+    position: sticky;
+    top:0;
+    right:0;
+    left:0; 
+  
+}
+nav{
+    display: flex;
+    background-color:var(--color1);
+    justify-content: space-between;
+    align-items: center;
+    font-family:Worksans ;
+}
+
+nav div img{
+    padding:0 2rem;
+}
+
+nav div a{
+    color: var(--color2);
+    font-size: 2rem;
+    padding: 0 7rem 0 10rem;
+}
+
+/* +++Main our Story+++ */
+
+.our_story{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color1);
+    padding-top: 15rem;
+    height: 100vh;
+    color: var(--color2);
+    font-family: Lora;
+}
+
+.our_story article{
+    display: flex;
+}
+
+.our_story article img{
+    height:60vh;
+    width:60vw;
+}
+
+.our_story article div p{
+    font-size: 2rem;
+    font-family: Worksans;
+    text-align: left;
+    padding: 5rem 10rem 5rem 7rem;
+}
+
+/* +++Main Featured+++ */
+
+.featured h2{
+    font-size: 5rem;
+    margin-top: 25rem;
+}
+
+.featured p{
+    font-size: 2rem;
+    font-family: Worksans;
+    font-weight: 400;
+    text-align: left;
+    margin: 3rem 40rem 10rem 40rem;
+    word-spacing: 1em;
+    color:var(--color1);
+}
+
+.featured_photos{
+    display: flex;
+    margin: 5rem;
+}
+
+.featured_photos div{
+    width: 60rem;
+}
+
+.featured_photos img{
+    width: 33vw;
+    height: 40vh;
+    padding: 5rem 5rem 0 5rem;
+    
+}
+
+.featured_photos p{
+    margin: 0 2rem 5rem 2rem;
+    width: 25vw;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 5rem 5rem 5rem;
+    color: var(--color1);
+    text-align: center;
+}
+
+iframe{
+    margin: 5rem 0 10rem 45rem;
+}
+
+/* +++Main Get in Touch+++ */
+
+.touch{
+    background-color: var(--color1);
+    height: 80vh;
+    display: flex;
+    color: var(--color2);
+}
+
+.touch article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70vw;
+    padding: 14rem 5rem 5rem 15rem;
+}
+
+.touch h2{
+    font-size: 6rem;
+}
+.touch p{
+    font-size: 2rem;
+    font-family: Worksans;
+    font-weight: 300;
+    text-align: left;
+    margin: 3rem 20rem 3rem 0;
+    letter-spacing: 6px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    width: 90rem;
+    font-family: Lora;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+label{
+    margin-top: 5rem;
+}
+input{
+    border-radius: 5px;
+    height: 3vh;
+    width: 50rem;
+}
+
+#Message{
+    width: 50rem;
+    margin-bottom: 5rem;
+}
+
+#btn{
+    width: 7rem;
+    height: 4rem;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+/* +++Footer+++ */
+
+footer{
+    background-color: var(--color4);
+    color: var(--color2);
+    display: flex;
+    height: 10vh;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a{
+    color: var(--color2);
+    padding: 5rem;
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+
+
+
